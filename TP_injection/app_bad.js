@@ -11,7 +11,7 @@ const pool = new pg.Pool({
   password: 'houssam',
   port: 5432
 });
-
+// retgreojt
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => {
