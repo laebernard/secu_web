@@ -4,11 +4,11 @@ const pg = require('pg');
 
 const app = express();
 
-const pool = new pg.Pool({
-  user: 'houssam',
-  host: 'localhost',
-  database: 'formulaire',
-  password: 'houssam',
+const pool = new Pool({
+  user: 'laetitia',
+  host: '172.25.204.179',
+  database: 'tpsecu_web',
+  password: '1806',
   port: 5432
 });
 

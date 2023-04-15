@@ -1,0 +1,14 @@
+{
+  "name": "tp_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app_bas_Xss.js",
+  "scripts": {
+    "test": "node app_bas_Xss.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xss": "^1.0.14"
+  }
+}

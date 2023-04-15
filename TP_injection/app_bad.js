@@ -4,14 +4,14 @@ const pg = require('pg');
 
 const app = express();
 
-const pool = new pg.Pool({
-  user: 'houssam',
-  host: 'localhost',
-  database: 'formulaire',
-  password: 'houssam',
-  port: 5432
-});
-// retgreojt
+const pool = new Pool({
+    user: 'laetitia',
+    host: '172.25.204.179',
+    database: 'tpsecu_web',
+    password: '1806',
+    port: 5432
+  });
+  
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => {
